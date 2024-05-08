@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="password-generator">
+        <h2>Password Generator</h2>
+        <div class="result-container">
+            <span id="result"></span>
+            <button id="copy-btn" onclick="copyPassword()">Copy</button>
+        </div>
+        <div class="settings">
+            <label for="length">Length: <span id="length-display">16</span></label>
+            <input type="range" id="length" min="4" max="32" value="16">
+            <label>Include Uppercase<input type="checkbox" id="uppercase"></label>
+            <label>Include Lowercase<input type="checkbox" id="lowercase"></label>
+            <label>Include Numbers<input type="checkbox" id="numbers"></label>
+            <label>Include Symbols<input type="checkbox" id="symbols"></label>
+        </div>
+        <button onclick="generatePassword()">Generate Password</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
