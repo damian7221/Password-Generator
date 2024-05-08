@@ -129,3 +129,12 @@ button {
 button:hover {
     background: linear-gradient(to right, #4ca1af, #a1c4e9);
 }
+
+.created-by {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #fff;
+}
