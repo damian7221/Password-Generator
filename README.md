@@ -3,25 +3,29 @@
 Github pages -> https://damian7221.github.io/Password-Generator/
 
 ## Overview
-This project is a web-based password generator that allows users to create secure, random passwords based on selected criteria.
+The Password Generator is a user-friendly web application designed to help you create strong and secure passwords. You can customize the length of the password and choose which types of characters to include. The generated password can be easily copied to your clipboard with a single click.
 
 ## Features
-- **Customizable Password Length**: Users can adjust the length of the generated password according to their needs, ranging from 4 to 32 characters.
-- **Character Type Inclusion Options**:
-  - Include Uppercase Letters
-  - Include Lowercase Letters
-  - Include Numbers
-  - Include Symbols
-- **Copy Functionality**: Users can easily copy the generated password to the clipboard with one click.
+- Adjustable password length (4 to 32 characters).
+- Options to include uppercase letters, lowercase letters, numbers, and symbols.
+- Real-time display of the password length.
+- Easy copying of the generated password to the clipboard.
+
+## Screenshots
+![passwordGeneratorProject](https://github.com/damian7221/Password-Generator/assets/92375106/f9fcebf4-52b2-443c-9e86-64c792025562)
 
 ## How It Works
-The application provides several options to customize the generated password:
-1. **Selecting Password Length**: Users can set the desired password length using a slider.
-2. **Character Inclusion**: Users can choose to include uppercase letters, lowercase letters, numbers, and symbols in the password.
-3. **Generate Password**: Upon clicking the 'Generate Password' button, the app generates a random password based on the selected criteria.
-4. **Copying the Password**: Users can copy the generated password to their clipboard using the 'Copy' button.
+1. **Adjust Password Length**: Use the range slider to set the desired length of the password.
+2. **Select Criteria**: Check the boxes to include uppercase letters, lowercase letters, numbers, and symbols in the password.
+3. **Generate Password**: Click the "Generate Password" button to create a password based on the selected criteria.
+4. **Copy Password**: Once a password is generated, the "Copy" button will appear. Click it to copy the password to the clipboard.
 
-## Technologies Used
-- **HTML**: Structures the web page and its content.
-- **CSS**: Styles the components with a clean and responsive layout.
-- **JavaScript**: Powers the functionality of the generator, handling user input, password generation logic, and clipboard operations.
+### Detailed Breakdown
+- **Password Length**: The length of the password is controlled using a range slider. The selected length is displayed in real-time next to the slider.
+- **Criteria Selection**: Users can choose to include or exclude uppercase letters, lowercase letters, numbers, and symbols by checking or unchecking the corresponding boxes.
+- **Password Generation**: When the "Generate Password" button is clicked, the application creates a random password that meets the selected criteria. The password is displayed in the result container.
+- **Copy Functionality**: The "Copy" button, which appears after a password is generated, allows users to copy the generated password to the clipboard for easy use.
+
+## Author
+
+- Created by Damian Łojko
