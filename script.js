@@ -18,7 +18,12 @@ function generatePassword() {
     const hasNumbers = numbersEl.checked;
     const hasSymbols = symbolsEl.checked;
 
-    resultEl.textContent = createPassword(hasUpper, hasLower, hasNumbers, hasSymbols, length);
+    const password = createPassword(hasUpper, hasLower, hasNumbers, hasSymbols, length);
+    resultEl.textContent = password;
+
+    if (password) {
+        document.getElementById('copy-btn').style.display = 'block';
+    }
 }
 
 function createPassword(upper, lower, numbers, symbols, length) {
