@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ h2{
 	display: flex;
     justify-content: center;
     align-items: center;
-	margin-bottom: 20px;
+	margin-bottom: 28px;
 }
 
 .password-generator {
@@ -28,15 +28,17 @@ h2{
 }
 
 .result-container {
-    margin-bottom: 20px;
+    height: 35px;
+    margin-bottom: 10px;
     background: rgba(255, 255, 255, 0.18);
     padding: 10px;
     text-align: center;
     border-radius: 8px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: #fff;
+    
 }
 
 .result-container span {
@@ -44,6 +46,8 @@ h2{
     display: inline-block;
     max-width: 100%;
     user-select: none;
+    text-align: center;
+
 }
 
 .settings label {
@@ -137,4 +141,21 @@ button:hover {
     transform: translateX(-50%);
     font-size: 18px;
     color: #fff;
+}
+
+#copy-btn {
+    display: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.4);
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#copy-btn:hover {
+    background: linear-gradient(to right, #4ca1af, #a1c4e9);
 }
